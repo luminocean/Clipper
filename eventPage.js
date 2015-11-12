@@ -1,3 +1,8 @@
+/*
+ * 事件页js，只有本模块才有权限调用所有的特权chrome API
+ * 主要提供了各种核心功能
+ * 插件的其他部分需要通过消息机制来从本模块获取需要的功能
+ */
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
     if (request.command === "historyList"){
       chrome.history.search({'text':''}, function(historyItems){

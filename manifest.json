@@ -5,7 +5,7 @@
   "description": "A simple clipper extension",
   "version": "0.1",
   "browser_action": {
-    "default_icon": "icon.png",
+    "default_icon": "resource/icon.png",
     "default_popup": "popup.html"
   },
   "background": {
