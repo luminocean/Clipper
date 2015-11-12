@@ -22,6 +22,9 @@
     }
   ],
   "permissions": [
-    "history"
+    "downloads",
+    "history",
+    "pageCapture",
+    "tabs"
   ]
 }
